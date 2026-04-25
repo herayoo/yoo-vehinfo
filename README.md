@@ -8,5 +8,5 @@
 3. setup your notifications system and translate it
 4. ensure the script in your server.cfg ensure yoo-vehinfo
 
-#CORE
+# CORE
 qb-core
