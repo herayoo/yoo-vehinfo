@@ -5,5 +5,8 @@
 
 1. Download script and put in your resource file
 2. Open config.lua and edit your jobs
-2. ensure the script in your server.cfg 
-ensure yoo-vehinfo
+3. setup your notifications system and translate it
+4. ensure the script in your server.cfg ensure yoo-vehinfo
+
+#CORE
+qb-core
