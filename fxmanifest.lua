@@ -2,22 +2,23 @@ fx_version 'cerulean'
 game 'gta5'
 
 author 'herayoo'
-description 'Araç Model Öğrenme Scripti'
-version '1.0.0'
+description 'Find the model name, plate and class of the vehicle you are in.'
+version '2.0.0'
 
-client_scripts {
-    'client.lua',
-}
-
-server_scripts {
-    'server.lua',
+shared_scripts {
     'config.lua'
 }
 
-ui_page 'html/index.html'
+client_scripts {
+    'client/client.lua',
+}
+
+server_scripts {
+    'server/server.lua',
+}
+
+ui_page 'html/dist/index.html'
 
 files {
-    'html/index.html',
-    'html/style.css',
-    'html/script.js'
+    'html/dist/**/*'
 }
